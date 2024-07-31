@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$main-bg-color: #fff;
+$accent-bg-color: #f4f5f6;
+$green-main-color: #1fa46c;
+$green-accent-color: #dbffe9;
+
+$error-color: #f25050;
+
+$text-main-color: #000;
+$text-accent-color: #999999;
+
+$scrollbar-color: #d9d9d9;
+
+$laptop-width: 1100px;
+
+:root {
+  font-size: 8px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  scrollbar-gutter: stable;
+}

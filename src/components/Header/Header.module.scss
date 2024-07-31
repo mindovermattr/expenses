@@ -1,0 +1,37 @@
+.header {
+  background-color: $main-bg-color;
+  padding: 22px 0;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.list {
+  &__logo {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  &__links {
+    display: flex;
+    gap: 48px;
+  }
+}
+
+.item {
+  &__button {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+}
+
+.links {
+  &__item {
+    font-size: 1.75rem;
+    font-weight: 600;
+    &--active {
+      color: $green-main-color;
+      border-bottom: 1px solid $green-main-color;
+    }
+  }
+}

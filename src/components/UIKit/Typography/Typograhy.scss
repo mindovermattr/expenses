@@ -1,0 +1,28 @@
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.text-sm {
+  &--regular {
+    color: $text-main-color;
+    font-size: 1.5rem;
+    line-height: 150%;
+  }
+  &--accent {
+    color: $text-accent-color;
+    font-size: 1.5rem;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  &-wrapper {
+    background-color: $main-bg-color;
+    border-radius: 30px;
+    padding: 32px;
+  }
+  &__button {
+    border-radius: 6px;
+    &:disabled {
+      background-color: $text-accent-color;
+    }
+  }
+}
+.categories {
+  &__controls {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 315px;
+    margin-top: 16px;
+    gap: 5px;
+  }
+}
+
+.field {
+  &__input {
+    margin-top: 16px;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  &__title {
+    display: inline-block;
+    padding-right: 1.5rem;
+    position: relative;
+    &--error::after {
+      content: "*";
+      font-size: 2rem;
+      color: $error-color;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

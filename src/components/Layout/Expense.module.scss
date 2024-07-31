@@ -1,0 +1,30 @@
+.expense {
+  &__content {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+  }
+  &__title {
+    padding-top: 36px;
+  }
+
+  &__form {
+    background-color: $main-bg-color;
+    border-radius: 30px;
+    padding: 32px;
+  }
+  &-wrapper {
+    height: 100%;
+    background-color: $accent-bg-color;
+    padding-bottom: 158px;
+  }
+}
+
+@media (max-width: $laptop-width) {
+  .expense {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

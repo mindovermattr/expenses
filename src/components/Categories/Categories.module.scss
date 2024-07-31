@@ -1,0 +1,16 @@
+.categories {
+  &__button {
+    display: flex;
+    gap: 12px;
+    &--active {
+      color: $green-main-color;
+      background-color: $green-accent-color;
+    }
+  }
+  &__icon {
+    flex-shrink: 0;
+    &--active {
+      fill: $green-main-color;
+    }
+  }
+}
