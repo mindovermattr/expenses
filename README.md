@@ -8,4 +8,4 @@
 
 ## Полезные ссылки
 
-Деплой:
+Деплой: https://mindovermattr.github.io/expenses/
